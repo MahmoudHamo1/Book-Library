@@ -1,0 +1,114 @@
+header .container > i {
+  color: black !important;
+}
+
+.about-us > .container {
+  padding-top: 150px;
+}
+
+.about-us > .container ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.about-us > .container ul li {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.about-us > .container ul li a {
+  color: #777;
+}
+
+.about-us > .container .header-of-about {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.about-us > .container .header-of-about h1 {
+  color: #332a5d;
+}
+
+.about-us > .container .header-of-about p {
+  font-size: 20px;
+  max-width: 650px;
+  margin: 30px auto 50px;
+  line-height: 1.6;
+}
+
+.about-us > .container .image img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 80px 0 80px 0;
+  border: 5px solid orangered;
+}
+
+.about-us > .container .overview {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about-us > .container .overview h2 {
+  font-size: 30px;
+  color: #332a5d;
+}
+
+.about-us > .container .overview p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.about-us > .container .mission-vision {
+  display: flex;
+  gap: 4%;
+  margin: 50px 0 100px;
+}
+
+@media (max-width: 767px) {
+  .about-us > .container .mission-vision {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+.about-us > .container .mission-vision .mission,
+.about-us > .container .mission-vision .vision {
+  max-width: 48%;
+}
+
+@media (max-width: 767px) {
+  .about-us > .container .mission-vision .mission,
+  .about-us > .container .mission-vision .vision {
+    max-width: 100%;
+  }
+}
+
+.about-us > .container .mission-vision .mission h2,
+.about-us > .container .mission-vision .vision h2 {
+  color: #332a5d;
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .about-us > .container .mission-vision .mission h2,
+  .about-us > .container .mission-vision .vision h2 {
+    text-align: center;
+  }
+}
+
+.about-us > .container .mission-vision .mission p,
+.about-us > .container .mission-vision .vision p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .about-us > .container .mission-vision .mission p,
+  .about-us > .container .mission-vision .vision p {
+    text-align: center;
+  }
+}
